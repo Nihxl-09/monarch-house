@@ -1,16 +1,70 @@
-# React + Vite
+# Monarch House
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A premium boutique hotel website concept built with React and Vite.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Monarch House is a fictional boutique hotel website designed around a calm, refined coastal hospitality experience.
 
-## React Compiler
+The website focuses on:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Premium hotel presentation
+- Responsive design
+- Room browsing
+- Stay reservation interface
+- Interactive experiences
+- Dining information
+- Image gallery
+- Contact section
+- Responsive mobile navigation
+- Interactive booking and experience modals
+- Smooth scrolling and reveal animations
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- JavaScript
+- CSS
+- Lucide React
+
+## Features
+
+### Rooms
+Explore the available Monarch House rooms and suites, including:
+
+- Garden Suite
+- Terrace Room
+- The Monarch Suite
+
+### Experiences
+
+Interactive experiences include:
+
+- Morning Ritual
+- The Water
+- Local Table
+
+### Dining
+
+A dedicated dining experience with information about the Monarch Table.
+
+### Booking
+
+The website includes a reservation interface with:
+
+- Check-in date
+- Check-out date
+- Number of guests
+- Room selection
+- Booking validation
+
+## Project Structure
+
+```text
+src/
+├── assets/
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
